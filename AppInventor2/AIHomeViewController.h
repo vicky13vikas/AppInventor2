@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AIHomeViewController.h
 //  AppInventor2
 //
 //  Created by Vikas Kumar on 10/11/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AIHomeViewController : UIViewController
 
 @end
-

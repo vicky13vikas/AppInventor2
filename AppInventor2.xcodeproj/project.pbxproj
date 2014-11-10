@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		1D6E1A6B1A10CA6F00E8CEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E1A6A1A10CA6F00E8CEF9 /* main.m */; };
 		1D6E1A6E1A10CA6F00E8CEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E1A6D1A10CA6F00E8CEF9 /* AppDelegate.m */; };
-		1D6E1A711A10CA6F00E8CEF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E1A701A10CA6F00E8CEF9 /* ViewController.m */; };
 		1D6E1A741A10CA6F00E8CEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6E1A721A10CA6F00E8CEF9 /* Main.storyboard */; };
 		1D6E1A761A10CA6F00E8CEF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6E1A751A10CA6F00E8CEF9 /* Images.xcassets */; };
 		1D6E1A791A10CA6F00E8CEF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6E1A771A10CA6F00E8CEF9 /* LaunchScreen.xib */; };
 		1D6E1A851A10CA6F00E8CEF9 /* AppInventor2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E1A841A10CA6F00E8CEF9 /* AppInventor2Tests.m */; };
+		1D6E1A901A10CD2D00E8CEF9 /* AIHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E1A8F1A10CD2D00E8CEF9 /* AIHomeViewController.m */; };
+		4E475BA71A11124500A8E9EB /* VideoLists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E475BA51A11124500A8E9EB /* VideoLists.xcdatamodeld */; };
+		4E475BAA1A1112F000A8E9EB /* Videos.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E475BA91A1112F000A8E9EB /* Videos.m */; };
+		4E475BAE1A11136200A8E9EB /* AIVideoLibraryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E475BAD1A11136200A8E9EB /* AIVideoLibraryManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		1D6E1A6A1A10CA6F00E8CEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D6E1A6C1A10CA6F00E8CEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D6E1A6D1A10CA6F00E8CEF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6E1A6F1A10CA6F00E8CEF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1D6E1A701A10CA6F00E8CEF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1D6E1A731A10CA6F00E8CEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D6E1A751A10CA6F00E8CEF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1D6E1A781A10CA6F00E8CEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1D6E1A7E1A10CA6F00E8CEF9 /* AppInventor2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppInventor2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6E1A831A10CA6F00E8CEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D6E1A841A10CA6F00E8CEF9 /* AppInventor2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppInventor2Tests.m; sourceTree = "<group>"; };
+		1D6E1A8E1A10CD2D00E8CEF9 /* AIHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIHomeViewController.h; sourceTree = "<group>"; };
+		1D6E1A8F1A10CD2D00E8CEF9 /* AIHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIHomeViewController.m; sourceTree = "<group>"; };
+		4E475BA61A11124500A8E9EB /* VideoLists.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoLists.xcdatamodel; sourceTree = "<group>"; };
+		4E475BA81A1112F000A8E9EB /* Videos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Videos.h; sourceTree = "<group>"; };
+		4E475BA91A1112F000A8E9EB /* Videos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Videos.m; sourceTree = "<group>"; };
+		4E475BAC1A11136200A8E9EB /* AIVideoLibraryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIVideoLibraryManager.h; sourceTree = "<group>"; };
+		4E475BAD1A11136200A8E9EB /* AIVideoLibraryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIVideoLibraryManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +89,11 @@
 		1D6E1A671A10CA6F00E8CEF9 /* AppInventor2 */ = {
 			isa = PBXGroup;
 			children = (
+				4E475BAB1A11130900A8E9EB /* CoreData */,
 				1D6E1A6C1A10CA6F00E8CEF9 /* AppDelegate.h */,
 				1D6E1A6D1A10CA6F00E8CEF9 /* AppDelegate.m */,
-				1D6E1A6F1A10CA6F00E8CEF9 /* ViewController.h */,
-				1D6E1A701A10CA6F00E8CEF9 /* ViewController.m */,
+				1D6E1A8E1A10CD2D00E8CEF9 /* AIHomeViewController.h */,
+				1D6E1A8F1A10CD2D00E8CEF9 /* AIHomeViewController.m */,
 				1D6E1A721A10CA6F00E8CEF9 /* Main.storyboard */,
 				1D6E1A751A10CA6F00E8CEF9 /* Images.xcassets */,
 				1D6E1A771A10CA6F00E8CEF9 /* LaunchScreen.xib */,
@@ -117,6 +126,18 @@
 				1D6E1A831A10CA6F00E8CEF9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E475BAB1A11130900A8E9EB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4E475BA51A11124500A8E9EB /* VideoLists.xcdatamodeld */,
+				4E475BA81A1112F000A8E9EB /* Videos.h */,
+				4E475BA91A1112F000A8E9EB /* Videos.m */,
+				4E475BAC1A11136200A8E9EB /* AIVideoLibraryManager.h */,
+				4E475BAD1A11136200A8E9EB /* AIVideoLibraryManager.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +184,7 @@
 		1D6E1A5D1A10CA6F00E8CEF9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AI;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Vikas Kumar";
 				TargetAttributes = {
@@ -219,9 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D6E1A711A10CA6F00E8CEF9 /* ViewController.m in Sources */,
+				1D6E1A901A10CD2D00E8CEF9 /* AIHomeViewController.m in Sources */,
+				4E475BA71A11124500A8E9EB /* VideoLists.xcdatamodeld in Sources */,
+				4E475BAA1A1112F000A8E9EB /* Videos.m in Sources */,
 				1D6E1A6E1A10CA6F00E8CEF9 /* AppDelegate.m in Sources */,
 				1D6E1A6B1A10CA6F00E8CEF9 /* main.m in Sources */,
+				4E475BAE1A11136200A8E9EB /* AIVideoLibraryManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +439,7 @@
 				1D6E1A8A1A10CA6F00E8CEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D6E1A8B1A10CA6F00E8CEF9 /* Build configuration list for PBXNativeTarget "AppInventor2Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,8 +448,22 @@
 				1D6E1A8D1A10CA6F00E8CEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E475BA51A11124500A8E9EB /* VideoLists.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E475BA61A11124500A8E9EB /* VideoLists.xcdatamodel */,
+			);
+			currentVersion = 4E475BA61A11124500A8E9EB /* VideoLists.xcdatamodel */;
+			path = VideoLists.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1D6E1A5D1A10CA6F00E8CEF9 /* Project object */;
 }
